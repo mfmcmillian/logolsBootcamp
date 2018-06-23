@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zombie Status Report</title>
+<link rel="stylesheet" href="zombieStyle.css" type="text/css" />
+</head>
+<body>
+
+
+<header style="color: red;" id= "reportPageHeader">
+    <h1>Zombie Status Report</h1>
+</header>
+
+<div class= "flexBox"> 
+
+<img src="cod-zombies-1.jpg" alt="Friendly zombie" style="width: 50%;" class="flexBox" id="reportPageImage">
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+
+<br>
+<br>
+<div>
+<table style="width: 50%;">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>PersonId</th> 
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>1</td> 
+      <td>Alive</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>4</td> 
+      <td>Dead</td>
+    </tr>
+  </table>
+
+
+  <div>
+    <br>  
+    Locations:
+  </div>
+  <div>
+    <select id="Locations">
+      <option value="1">Michigan</option>
+      <option value="2">Ohio</option>
+      <option value="3">Chicago</option>
+    </select>
+  </div>
+  
+  <div>
+        <br>
+        <a href="zombieStatusForm.html">Add a survivor</a>
+  </div>
+
+<p class= "reportPageParagraph">This is a paragraph about stuff</p>
+</div>
+</div>
+</body>
+</html>

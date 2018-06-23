@@ -1,0 +1,26 @@
+/*
+elements
+*/
+th {background-color: lightgray;}
+h1 {color: red;}
+
+/*
+classes
+*/
+.reportPageParagraph {color: darkgray;}
+.float {float: right}
+.flexBox 
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*
+ids
+*/
+#reportPageHeader {text-align: center}
+#statusFormHeader {text-align: center}
+#reportPageImage {order: 1;}
